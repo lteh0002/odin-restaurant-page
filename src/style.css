@@ -1,0 +1,22 @@
+body {
+    background-color: brown;
+}
+
+#content {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.top-image {
+    margin: 25px;
+    width: 700px;
+}
+
+.landing-page-copy {
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
