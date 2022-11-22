@@ -10,7 +10,7 @@ export function menu() {
 
     const chickenSaurus = document.createElement('img');
     chickenSaurus.classList.add("image");
-    chickenSaurus.src = chickenPizza
+    chickenSaurus.src = "../src/assets/chickensaurus.jpeg";
     chickenSaurus.alt = "chickensaurus";
     contentDiv.appendChild(chickenSaurus);
 
@@ -21,7 +21,7 @@ export function menu() {
 
     const prawnSensation = document.createElement('img');
     prawnSensation.classList.add("image");
-    prawnSensation.src = prawnPizza
+    prawnSensation.src = "../src/assets/prawnsensation.jpeg";
     prawnSensation.alt = "chickensaurus";
     contentDiv.appendChild(prawnSensation);
 
