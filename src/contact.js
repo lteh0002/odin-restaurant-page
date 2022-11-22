@@ -9,7 +9,7 @@ export function contact() {
 
     const phoneImage = document.createElement("img")
     phoneImage.classList.add("image")
-    phoneImage.src = "assets/contactus.jpeg"
+    phoneImage.src = "../dist/assets/contactus.jpeg"
     phoneImage.alt = "image of phone"
     contentDiv.appendChild(phoneImage)
 
@@ -20,7 +20,7 @@ export function contact() {
 
     const email = document.createElement("img")
     email.classList.add("image")
-    email.src = "assets/email.jpeg"
+    email.src = "../dist/assets/email.jpeg"
     email.alt = "email image"
     contentDiv.appendChild(email)
 

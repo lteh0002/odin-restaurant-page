@@ -9,7 +9,7 @@ export function initialPageLoad() {
 
     const topImage = document.createElement('img');
     topImage.classList.add("top-image");
-    topImage.src = "assets/pizza_parlor.webp";
+    topImage.src = "../dist/assets/pizza_parlor.webp";
     topImage.alt = "restaurant image";
     contentDiv.appendChild(topImage);
 
