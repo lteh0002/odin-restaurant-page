@@ -1,3 +1,6 @@
+import phoneImg from "../src/assets/contactus.jpeg";
+import emailImg from "../src/assets/email.jpeg"
+
 export function contact() {
     const contentDiv = document.querySelector('#content');
     contentDiv.replaceChildren()
@@ -9,7 +12,7 @@ export function contact() {
 
     const phoneImage = document.createElement("img")
     phoneImage.classList.add("image")
-    phoneImage.src = "../src/assets/contactus.jpeg"
+    phoneImage.src = phoneImg
     phoneImage.alt = "image of phone"
     contentDiv.appendChild(phoneImage)
 
@@ -20,7 +23,7 @@ export function contact() {
 
     const email = document.createElement("img")
     email.classList.add("image")
-    email.src = "../src/assets/email.jpeg"
+    email.src = emailImg
     email.alt = "email image"
     contentDiv.appendChild(email)
 
@@ -28,7 +31,4 @@ export function contact() {
     para1Email.classList.add("contact-copy")
     para1Email.textContent = "Email us for reservation"
     contentDiv.appendChild(para1Email)
-
-
-
 }
